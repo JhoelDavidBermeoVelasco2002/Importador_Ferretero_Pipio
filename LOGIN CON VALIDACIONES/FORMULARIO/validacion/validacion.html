@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+</head>
+<body>
+
+
+    <script >
+        let Validacion = /forma/ 
+        let str = "forma alguna forma de hacer esto "
+        imprimir(str,Validacion);
+        // Encontrará en este caso si hay una coincidencia en el texto con la palabra /forma/
+
+
+        Validacion = /[ia]/
+        //Al poner corchetes buscará si hay o no una de esas coincidencias
+        //En este caso buscará la letra "i" o letra "a" y si no está
+        //Devolverá false y Null en el caso de Match
+        //También se pueden usar rangos y numeros como /[0-3]/ encontrará los numeros del 0 al 3
+
+        str = "Como estuvo?"
+        imprimir(str, regex)
+
+        
+        
+
+        function imprimir (str,Validacion){
+            console.log(Validacion.test(str))
+            console.log(str.match(Validacion))
+        }
+    </script>
+</body>
+</html>
