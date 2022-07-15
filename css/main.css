@@ -71,3 +71,12 @@
 #evento-marca img{
     max-width: 100%;   
 }
+
+#conviertete-en-colaborador{
+    background-color: #a0b9c6;
+    color: #263e5d;
+}
+
+#conviertete-en-colaborador label{
+    color: #000814;
+}

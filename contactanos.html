@@ -29,7 +29,7 @@
                 <div class="navbar-nav">
              ㅤㅤㅤㅤ ㅤㅤㅤㅤ<a class="navbar-brand" href="index.html">INICIO</a>ㅤ
                     <a class="nav-link active" aria-current="page" href="QUIENES-SOMOS.HTML">CONTÁCTANOS</a>ㅤ
-                    <a class="nav-link" href="PRODUCTOS.HTML">PRODUCTOS</a>ㅤ
+                    <a class="nav-link" href="evento.html">PRODUCTOS</a>ㅤ
                     <a class="nav-link" href="LOGIN CON VALIDACIONES/FORMULARIO/LOGIN.html">INICIAR
                         SESIÓN</a>ㅤ
                     <a class="nav-link" href="login.html">REGÍSTRATE</a>
@@ -196,6 +196,79 @@
       </section>
     <!--Finaliza Eventos y Marca-->
     </main>
+
+    <section id="conviertete-en-colaborador" class="pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <small>Conviértete en</small>
+            <h2>DISTRIBUIDOR</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+     <!--Agregar un tooltip-->
+     <p>Anotate como <abbr data-bs-toggle="tooltip" data-bs-html="true" title="Distribuidor Oficial de IFP">distribuidor de Importador Ferretero Pipio</abbr> para que puedas unirte a esta gran familia!</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+        <form id="form">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Nombre</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Apellido</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Cuentanos por que quiere unirte a nosotros" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Cuentanos por que quiere unirte a nosotros</label>
+          </div>
+          <div class="form-floating mb-3">
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalFormulario">ENVIAR</button>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+</section>
+<!--Finaliza INSCRIPCION COMO COLABORADORA-->
+
+
+<div class="modal fade" id="modalFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalCenterTitle">GRACIAS POR UNIRTE A IMPORTADOR FERRETERO PIPIO</h5>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-row">
+          <div class="form-group col">
+              <small>Ayudanos con tu Correo Electronico:</small>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">@</span>
+              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+            </div>
+            <div class="alert alert-info" role="alert">
+              Se te enviará un correo de respuesta.
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancelar</button>
+      <button type="button" class="btn btn-success">ACEPTAR</button>
+    </div>
+  </div>
+</div>
+</div>
+
     <!-- pb= pading bottom; pt= pading top-->
     <footer id="footer" class="pb-4 pt-4">
       <div class="container">
